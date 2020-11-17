@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[VarDecl(Id("t"),[],None)],([VarDecl(Id("h"),[],None),VarDecl(Id("m"),[],None),VarDecl(Id("s"),[],None)],[Assign(Id("h"),BinaryOp("\",Id("t"),IntLiteral(3600))),Assign(Id("m"),BinaryOp("\",BinaryOp("%",Id("t"),IntLiteral(3600)),IntLiteral(60))),Assign(Id("s"),BinaryOp("%",Id("t"),IntLiteral(60))),CallStmt(Id("print"),[Id("h"),Id("m"),Id("s")])]))])

@@ -1,0 +1,18 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        If n > 0 Then
+			            If n > 1 Then
+			                If n > 2 Then
+			                    If n > 3 Then
+			                        If n > 4 Then
+			                            If n > 5 Then
+			                            EndIf.
+			                        EndIf.
+			                    EndIf.
+			                EndIf.
+			            EndIf.
+			        EndIf.
+			    EndBody.
+		

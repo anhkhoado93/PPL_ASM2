@@ -1,0 +1,7 @@
+
+			Function: main
+			    Body:
+			        Var: x;
+			        x = True && False;
+			    EndBody.
+		

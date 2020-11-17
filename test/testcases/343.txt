@@ -1,0 +1,10 @@
+
+			Function: main
+			    Body:
+			        For (i = 0, i < 10, 1) Do
+			            If i % 2 == 0 Then
+			                print(i);
+			            EndIf.
+			        EndFor.
+			    EndBody.
+		

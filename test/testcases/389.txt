@@ -1,0 +1,13 @@
+
+			Var: x;
+			Function: f
+			    Parameter: x
+			    Body:
+			        For (x = x, x > 0, -1) Do
+			        EndFor.
+			    EndBody.
+			Function: main
+			    Body:
+			        f(x);
+			    EndBody.
+		

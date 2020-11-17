@@ -1,0 +1,7 @@
+
+			Function: main
+			    Parameter: x
+			    Body:
+			        Return ---init__(---x);
+			    EndBody.
+		

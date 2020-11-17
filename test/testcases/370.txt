@@ -1,0 +1,16 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        Do
+			            While n > 0 Do
+			                For (i = 0, i < n, 1) Do
+			                    If n % i == 0 Then
+			                    ElseIf n % i == 1 Then
+			                    Else
+			                    EndIf.
+			                EndFor.
+			            EndWhile.
+			        While n > 0 EndDo.
+			    EndBody.
+		

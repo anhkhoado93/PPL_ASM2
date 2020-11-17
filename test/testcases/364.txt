@@ -1,0 +1,9 @@
+
+			** Outside the function **
+			Function: main
+			    Body:
+			        ** Inside the function **
+			        Var: x;
+			        x = 1 + 2 * 3 ** 4 ** \ 5;
+			    EndBody.
+		

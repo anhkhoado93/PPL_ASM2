@@ -1,0 +1,7 @@
+
+			Function: compose
+			    Parameter: f, g, x
+			    Body:
+			        Return f(g(x));
+			    EndBody.
+		

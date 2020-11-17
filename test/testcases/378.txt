@@ -1,0 +1,17 @@
+
+			Function: a
+			    Body:
+			        Var: x;
+			        Return b(x);
+			    EndBody.
+			Function: b
+			    Body:
+			        Var: x;
+			        Return a(x);
+			    EndBody.
+			Function: main
+			    Body:
+			        Var: x;
+			        x = a(x) + b(x);
+			    EndBody.
+		

@@ -1,0 +1,7 @@
+
+			Function: increment
+			    Parameter: x
+			    Body:
+			        x = x * 1 + 0 -- 1;
+			    EndBody.
+		

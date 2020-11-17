@@ -1,0 +1,8 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        Var: x, y = 0;
+			        print(x + y + n);
+			    EndBody.
+		

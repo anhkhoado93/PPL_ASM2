@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("a"),[],([VarDecl(Id("x"),[],None)],[Return(CallExpr(Id("b"),[Id("x")]))])),FuncDecl(Id("b"),[],([VarDecl(Id("x"),[],None)],[Return(CallExpr(Id("a"),[Id("x")]))])),FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None)],[Assign(Id("x"),BinaryOp("+",CallExpr(Id("a"),[Id("x")]),CallExpr(Id("b"),[Id("x")])))]))])

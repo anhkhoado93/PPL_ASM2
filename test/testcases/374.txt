@@ -1,0 +1,17 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        While i < n Do
+			            While i < n Do
+			                While i < n Do
+			                    While i < n Do
+			                        While i < n Do
+			                            i = i + 1;
+			                        EndWhile.
+			                    EndWhile.
+			                EndWhile.
+			            EndWhile.
+			        EndWhile.
+			    EndBody.
+		

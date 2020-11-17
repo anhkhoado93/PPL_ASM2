@@ -1,0 +1,11 @@
+
+			Function: main
+			    Parameter: x
+			    Body:
+			        If x == 0 Then
+			            x = 1;
+			        ElseIf x == 1 Then
+			            x = 0;
+			        EndIf.
+			    EndBody.
+		

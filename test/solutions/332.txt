@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None),VarDecl(Id("y"),[],None)],[Assign(Id("x"),ArrayCell(Id("y"),[CallExpr(Id("foo"),[ArrayCell(Id("y"),[CallExpr(Id("foo"),[ArrayCell(Id("y"),[CallExpr(Id("foo"),[ArrayCell(Id("y"),[CallExpr(Id("foo"),[ArrayCell(Id("y"),[CallExpr(Id("foo"),[Id("y")])])])])])])])])])]))]))])

@@ -1,0 +1,17 @@
+
+			Function: f
+			    Parameter: x
+			    Body:
+			        Return f(x);
+			    EndBody.
+			Function: g
+			    Parameter: x
+			    Body:
+			        Return g(x);
+			    EndBody.
+			Function: composefg
+			    Parameter: x
+			    Body:
+			        Return f(g(x));
+			    EndBody.
+		

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None)],[Assign(Id("x"),UnaryOp("!",UnaryOp("-.",CallExpr(Id("foo"),[ArrayCell(Id("a"),[BinaryOp("+",Id("b"),Id("c"))])]))))]))])

@@ -1,0 +1,14 @@
+
+			Function: main
+			    Body:
+			        Var: a[10][10];
+			        For (i = 0, i < 10, 1) Do
+			            For (j = 0, j < 10, 1) Do
+			                If i == j Then
+			                    Continue;
+			                EndIf.
+			                a[i][j] = i*10 + j;
+			            EndFor.
+			        EndFor.
+			    EndBody.
+		

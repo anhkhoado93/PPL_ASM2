@@ -1,0 +1,11 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        For (i = 0, i < 10, 1) Do
+			            If i == 5 Then
+			                Continue;
+			            EndIf.
+			        EndFor.
+			    EndBody.
+		

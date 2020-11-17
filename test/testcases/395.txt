@@ -1,0 +1,13 @@
+
+			Function: main
+			    Parameter: x
+			    Body:
+			        If x == True Then
+			            x = False;
+			        Else
+			            x = True;
+			        EndIf.
+			        x = !x;
+			        Return x;
+			    EndBody.
+		

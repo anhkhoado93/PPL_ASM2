@@ -1,0 +1,7 @@
+
+			Function: main
+			    Body:
+			        Var: x;
+			        x = x && x < x + x * !-x[foo(x)];
+			    EndBody.
+		

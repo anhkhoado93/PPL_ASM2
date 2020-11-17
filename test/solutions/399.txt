@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("recursion"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("recursion"),[Id("x")]))]))])

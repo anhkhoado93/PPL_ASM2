@@ -1,0 +1,16 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        For (i = 0, i < n, 1) Do
+			            For (i = 0, i < n, 1) Do
+			                For (i = 0, i < n, 1) Do
+			                    For (i = 0, i < n, 1) Do
+			                        For (i = 0, i < n, 1) Do
+			                        EndFor.
+			                    EndFor.
+			                EndFor.
+			            EndFor.
+			        EndFor.
+			    EndBody.
+		

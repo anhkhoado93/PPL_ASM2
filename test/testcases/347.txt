@@ -1,0 +1,8 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        While n > 0 Do
+			        EndWhile.
+			    EndBody.
+		

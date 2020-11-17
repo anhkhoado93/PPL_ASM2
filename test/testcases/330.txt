@@ -1,0 +1,7 @@
+
+			Function: main
+			    Body:
+			        Var: x;
+			        x = foo(foo(foo(foo(foo(x))))) + func();
+			    EndBody.
+		

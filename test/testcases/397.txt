@@ -1,0 +1,15 @@
+
+			Function: main
+			    Parameter: x
+			    Body:
+			        If x == 0 Then
+			            x = x + 1;
+			        Else If x == 1 Then
+			            x = x + 2;
+			        Else If x == 2 Then
+			            x = x + 3;
+			        Else
+			            x = x + 4;
+			        EndIf. EndIf. EndIf.
+			    EndBody.
+		

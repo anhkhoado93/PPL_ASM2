@@ -1,0 +1,8 @@
+
+			Function: main
+			    Body:
+			        Var: a, b;
+			        a = int_of_string(read());
+			        b = float_of_int(a) +. 2.0;
+			    EndBody.
+		

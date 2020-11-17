@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("f"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("f"),[Id("x")]))])),FuncDecl(Id("g"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("g"),[Id("x")]))])),FuncDecl(Id("composefg"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("f"),[CallExpr(Id("g"),[Id("x")])]))]))])

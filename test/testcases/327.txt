@@ -1,0 +1,7 @@
+
+			Function: main
+			    Body:
+			        Var: x, y;
+			        x = y[1] + y[0xABC] + y[0o123] + y[1+0xABC*0o123];
+			    EndBody.
+		

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[VarDecl(Id("x"),[],None)],([],[If([(BinaryOp("==",Id("x"),BooleanLiteral(True)),[],[Assign(Id("x"),BooleanLiteral(False))])],([],[Assign(Id("x"),BooleanLiteral(True))])),Assign(Id("x"),UnaryOp("!",Id("x"))),Return(Id("x"))]))])

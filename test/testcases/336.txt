@@ -1,0 +1,7 @@
+
+			Function: main
+			    Body:
+			        Var: x, y;
+			        x = -y[!y[-.y[!y[x]]]][!-.-x][---y[!x]];
+			    EndBody.
+		

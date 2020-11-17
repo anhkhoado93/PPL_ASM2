@@ -1,0 +1,11 @@
+
+			Function: divide_conquer
+			    Parameter: lst, begin, end
+			    Body:
+			        If begin == end Then
+			            Return lst[begin];
+			        Else
+			            Return divide_conquer(lst, begin, end \ 2) + divide_conquer(lst, end \ 2 + 1, end);
+			        EndIf.
+			    EndBody.
+		

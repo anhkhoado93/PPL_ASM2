@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None),VarDecl(Id("y"),[],None)],[Assign(Id("x"),BinaryOp("+",BinaryOp("+",BinaryOp("+",ArrayCell(Id("y"),[IntLiteral(1)]),ArrayCell(Id("y"),[IntLiteral(2748)])),ArrayCell(Id("y"),[IntLiteral(83)])),ArrayCell(Id("y"),[BinaryOp("+",IntLiteral(1),BinaryOp("*",IntLiteral(2748),IntLiteral(83)))])))]))])

@@ -1,0 +1,7 @@
+
+			Function: main
+			    Body:
+			        Var: x, y, z;
+			        x = x[(y+z)*y*z] * (x[y] + x[x[z]]);
+			    EndBody.
+		

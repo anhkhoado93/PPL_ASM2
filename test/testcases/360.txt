@@ -1,0 +1,8 @@
+
+			Function: main
+			    Body:
+			        Var: x;
+			        foo(2 + x, 4. \. y);
+			        goo();
+			    EndBody.
+		

@@ -1,0 +1,7 @@
+
+			Function: main
+			    Parameter: a, b, c
+			    Body:
+			        foo(**first comment****second comment**a, b, c);
+			    EndBody.
+		

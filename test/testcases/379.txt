@@ -1,0 +1,24 @@
+
+			Function: main
+			    Parameter: x, y, z
+			    Body:
+			        For (x = x, y, z) Do
+			            If x > 0 Then
+			                If y > 0 Then
+			                    y = 0;
+			                ElseIf z > 0 Then
+			                    z = 0;
+			                EndIf.
+			            ElseIf y < z Then
+			                x = x + y;
+			            ElseIf x < z Then
+			                x = x + z;
+			            Else
+			                Var: a, b, c;
+			                a = x;
+			                b = y;
+			                c = z;
+			            EndIf.
+			        EndFor.
+			    EndBody.
+		

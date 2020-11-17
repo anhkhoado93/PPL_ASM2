@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([],[While(BinaryOp("<",Id("i"),Id("n")),([],[While(BinaryOp("<",Id("i"),Id("n")),([],[While(BinaryOp("<",Id("i"),Id("n")),([],[While(BinaryOp("<",Id("i"),Id("n")),([],[While(BinaryOp("<",Id("i"),Id("n")),([],[Assign(Id("i"),BinaryOp("+",Id("i"),IntLiteral(1)))]))]))]))]))]))]))])

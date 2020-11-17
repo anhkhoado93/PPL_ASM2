@@ -1,0 +1,13 @@
+
+			Function: main
+			    Parameter: n
+			    Body:
+			        While n > 0 Do
+			            For (i = 0, i < 10, 1) Do
+			                If i > 5 Then
+			                    print(i);
+			                EndIf.
+			            EndFor.
+			        EndWhile.
+			    EndBody.
+		

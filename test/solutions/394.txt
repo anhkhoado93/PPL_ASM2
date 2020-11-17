@@ -1,0 +1,1 @@
+Program([FuncDecl(Id("main"),[VarDecl(Id("x"),[],None)],([],[Return(UnaryOp("-",UnaryOp("-",UnaryOp("-",CallExpr(Id("init__"),[UnaryOp("-",UnaryOp("-",UnaryOp("-",Id("x"))))])))))]))])

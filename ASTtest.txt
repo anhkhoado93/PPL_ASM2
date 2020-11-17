@@ -1,0 +1,785 @@
+0
+Var: x;
+.
+1
+Var: a, b = 2, c;
+.
+2
+Var: arr[1] = "Hello";
+.
+3
+Var: arr[1][2][3][4][5] = {{{{{}}}}};
+.
+4
+Var: x = "String", y[1] = {1,2}, z;
+.
+5
+Function: func
+    Body:
+    EndBody.
+.
+6
+Function: func
+    Parameter: a,b
+    Body:
+    EndBody.
+.
+7
+Function: func
+    Parameter: a,b[1]
+    Body:
+    print(a);
+    EndBody.
+.
+8
+Var: a = 10;
+Function: func
+    Parameter: a,b
+    Body:
+    a = 5;
+    EndBody.
+.
+9
+Function: func
+    Body:
+    print("Hello,");
+    EndBody.
+Function: func
+    Body:
+    print(" World");
+    EndBody.
+.
+10
+Function: main
+    Parameter: a[3], b[4][5]
+    Body:
+        Var: i = "don'"t care";
+    EndBody.
+.
+11
+Function: main
+    Parameter: a[3], b[4][5]
+    Body:
+        If a[3] == 1 
+        Then
+            Var: c = 10;
+            b[4][5] = 5;
+        EndIf.
+    EndBody.
+.
+12
+Function: main
+    Parameter: a[3], b[4][5]
+    Body:
+        If a[3] == 1 Then
+            Var: c = 10;
+        ElseIf a[3] == 2 Then
+            Var: b = 50;
+        EndIf.
+    EndBody.
+.
+13
+Function: main
+    Parameter: a[3], b[4][5]
+    Body:
+        If a[3] == 1 Then
+            Var: c = 10;
+            b[4][5] = 5;
+        ElseIf a[3] == 2 Then
+            Var: b = 50;
+        Else
+            Var: d = "Hello";
+        EndIf.
+    EndBody.
+.
+14
+Function: main
+    Parameter: a[3], b[4][5]
+    Body:
+        If a[3] == 4 Then
+            b[a[3]][5] = {1,2,{4,5}};
+        EndIf.
+    EndBody.
+.
+15
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        If a[3] == 4 Then
+            b[a[3]][5] = {1,2,{4,5}};
+        ElseIf (a[3] != 4) && (b[4][5] <. 6) Then
+            Return;
+        EndIf.
+    EndBody.
+.
+16
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        a = 4 == b && c + 5.e1;
+    EndBody.
+.
+17
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        a = 4 == b || c - 5.25;
+    EndBody.
+.
+18
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        a = 4 == b * !!!!(True);
+    EndBody.
+.
+19
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        a = f(5,a && 1,g(8));
+    EndBody.
+.
+20
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        a = fg("String", 1 && 2, {1,{2,3}});
+    EndBody.
+.
+21
+Function: f
+    Parameter: a[3], b[4][5]
+    Body:
+        a = fg("String", 1 && 2, {1,{2,3}});
+    EndBody.
+.
+22
+Function: game
+    Parameter: a[3], b[4][5]
+    Body:
+        a = fg("String", 1 && 2, {1,{2,3}});
+    EndBody.
+.
+23
+Function: game
+    Parameter: a[3], b[4][5]
+    Body:
+        f(g(h(y(j,{1,{2,{3}}}))));
+    EndBody.
+.
+24
+Function: game
+    Parameter: a[3], b[4][5]
+    Body:
+        While a == 1 Do 
+            print(os("Hello"));
+        EndWhile.
+    EndBody.
+.
+25
+Function: fnc
+    Body:
+        While "Hello" Do 
+            print(os("Hello"));
+        EndWhile.
+    EndBody.
+.
+26
+Function: main
+    Body:
+        Return ans(5);
+    EndBody.
+.
+27
+Function: fact
+    Parameter: n
+    Body:
+        Return n * fact(n-1);
+    EndBody.
+.
+28
+Function: main
+    Body:
+        foo[foo2[1]] = bar({1,2,3});
+    EndBody.
+.
+29
+Function: main
+    Body:
+        a = -----.-.-.1e2;
+    EndBody.    
+.
+30
+Function: main
+    Body:
+        a = -func("adding");
+    EndBody.
+.
+31
+Function: main
+Body:
+    Break;
+    Continue;
+    While True Do
+        Break;
+        Continue;
+    EndWhile.
+EndBody.
+.
+32
+Function: main
+**Parameter: a,b **
+Body:
+    Var: a = 4;
+    While True Do
+        Break;
+        Continue;
+        Return;
+    EndWhile.
+EndBody.
+.
+33
+Function: main
+Body:
+    Var : a;
+    Do 
+        a = a + 1;
+        Break;
+    While True EndDo.
+EndBody.
+.
+34
+Function: main
+Body:
+    Var : a;
+    While True Do
+        While "String" Do
+        EndWhile.
+    EndWhile.
+EndBody.
+.
+35
+Function: main
+Body:
+    Var : a;
+    While !!!!!!!True Do
+        While "String" Do
+        EndWhile.
+    EndWhile.
+EndBody.
+.
+36
+Function: main
+Body:
+    a = func(3) * foo("Daa");
+EndBody.
+.
+37
+Function: main
+Body:
+    Return 13e-5 + True - False;
+EndBody.
+.
+38
+Function: main
+Body:
+    foo(2,
+        3,
+        4
+        );
+EndBody.
+.
+39
+Function: main
+Body:
+    mainly(eat,**alohamora**1);
+EndBody.
+.
+40
+Function: main
+    Body:
+        Return ***8**;
+    EndBody.
+.
+41
+Var: n, a[10];
+Function: main
+Body:
+    Var: i = 4;
+    For(i = 0, i < 10, 1) Do
+        If (n+9 < 4) Then
+            ** do something **
+        Else
+            **please my lord**
+        EndIf.
+    EndFor.
+EndBody.
+.
+42
+Function: fact
+Parameter: x
+Body:
+    Return fact(x-1);
+EndBody.
+
+Function: main
+Body:
+    print(fact(5)); **Should get 120**
+EndBody.
+.
+43
+Function: main
+Parameter: b
+Body:
+    Var : a;
+    While a - b == 4 Do
+        While "String" Do
+        EndWhile.
+    EndWhile.
+EndBody.
+.
+44
+Function: main
+Parameter: x
+Body:
+    Var: y = {{5,5.,0x3}, {{False}}, {"True"}};
+EndBody.
+.
+45
+Function: main
+Parameter: x
+Body:
+    Return !True && False;
+EndBody.
+.
+46
+Function: main
+Body:
+    foo[foo2[1]] = bar({1,2,3});
+EndBody.
+.
+47
+Function: main
+Body:
+    foo(bar() + dua() + 5.e10);
+EndBody.
+.
+48
+Var: a = {"Hello"}, b, c,d = 8. ;
+.
+49
+Var: a[0O7] = {};
+.
+50
+Var: a[1] = {};
+Function: main
+Body:
+    a = a + 2;
+EndBody.
+.
+51
+Function: func
+Parameter: a
+Body:
+    ** factorial **
+    Return a * func(a);
+EndBody.
+.
+52
+Function: main
+Body:
+    If !!!(a==3) Then
+        a = "String";
+    Else
+        a = 6;
+    EndIf.
+EndBody.
+.
+53
+Function: main
+Body:
+    If main(2) Then
+        a = "String";
+    Else
+        a = 6;
+    EndIf.
+EndBody.
+.
+54
+Function: main
+Body:
+    If 1 +. 2.9 == 3.9e0 Then
+        print("Successful");
+    Else
+        a = 6;
+    EndIf.
+EndBody.
+.
+55
+Var: n, a[10];
+Function: main
+Body:
+    Var: i = 4;
+    For(i = "heelo", "aloha", {{"unexpected"}}) Do
+        ** do something **
+    EndFor.
+EndBody.
+.
+56
+Var: n, a[10];
+Function: main
+Body:
+    Var: i = 4;
+    For(i = {{1,2,3}}, ---.--i,a == 1) Do
+        ** do something **
+    EndFor.
+EndBody.
+.
+57
+Var: n, a[10];
+Function: main
+Body:
+    Var: i = 4;
+    For(i = {{1,"2",3}}, i > 12.e-4, --i) Do
+        ** do something **
+    EndFor.
+EndBody.
+.
+58
+Var: n, a[10];
+Function: main
+Body:
+    Var: i = 4;
+    For(i = {{1,2,3}}, ---.--i,a == 1) Do
+        If i > 5 Then
+        While True Do
+        EndWhile.
+        EndIf.
+    EndFor.
+EndBody.
+.
+59
+Function: main
+Body:
+    Var: i = 4;
+    For(i = {{1,2,3}}, ---.--i,a == 1) Do
+        If i > 5 Then
+        Do **nothing** While i 
+        EndDo.
+        EndIf.
+    EndFor.
+EndBody.
+.
+60
+Function: fnc
+    Body:
+        While {1,2,{3,4}} Do 
+            If clear == sky Then
+                print("Hello");
+            EndIf.
+        EndWhile.
+    EndBody.
+.
+61
+
+.
+62
+Function: fnc
+    Body:
+        While {1,2,{3,4}} Do 
+            While True Do
+                While "True" Do
+                EndWhile.
+            EndWhile.
+        EndWhile.
+    EndBody.
+.
+63
+Function: fnc
+    Body:
+        While {1,2,{3,4}} Do 
+            While True Do
+                Do a = 4; While a == 4
+                EndDo.
+            EndWhile.
+        EndWhile.
+    EndBody.
+.
+64
+Function: divide_conquer
+    Parameter: hello, begin, end
+    Body:
+        If begin == end Then
+            Return hello[begin];
+        Else
+            Return divide_conquer(hello, begin, end - 2) + divide_conquer(hello, end - 2 + 1, end);
+        EndIf.
+    EndBody.
+.
+65
+Function: divide_conquer
+    Parameter: hello, begin, end
+    Body:
+        hello(begin());
+        end();
+    EndBody.
+.
+66
+Function: divide_conquer
+    Parameter: hello, begin, end
+    Body:
+        Do
+            print({"string"});
+        While "String"
+        EndDo.
+    EndBody.
+.
+67
+Function: divide_conquer
+    Parameter: hello, begin, end
+    Body:
+        Break;
+    EndBody.
+.
+68
+Function: divide_conquer
+    Parameter: hello, begin, end
+    Body:
+        Continue;
+    EndBody.
+.
+69
+Function: divide_conquer
+    Parameter: hello, begin, end
+    Body:
+        While True Do
+        Break;
+        EndWhile.
+    EndBody.
+.
+70
+Function: ret
+    Parameter: hello, begin, end
+    Body:
+        Return "chimsedinang";
+    EndBody.
+.
+71
+Function: ret
+    Parameter: hello, begin, end
+    Body:
+        Return ret();
+    EndBody.
+.
+72
+Function: exp
+    Parameter: a
+    Body:
+        a = ---(!!!1);
+    EndBody.
+.
+73
+Function: exp
+    Parameter: a
+    Body:
+        a = 1+2-.3;
+    EndBody.
+.
+74
+Function: exp
+    Parameter: a
+    Body:
+        a = f() * g() -. 0O0;
+    EndBody.
+.
+75
+Function: exp
+    Parameter: a
+    Body:
+        a = 0xFA;
+    EndBody.
+.
+76
+Function: exp
+    Parameter: a
+    Body:
+        a = 0xFA + 0O17 + 12 + 5e1;
+    EndBody.
+.
+77
+Function: main
+    Body:
+        Var: x, y, z;
+        x = y----------z;
+    EndBody.
+.
+78
+Function: main
+    Parameter: n
+    Body:
+        If n > 1 Then
+            If n > 2 Then
+                If n > 3 Then
+                    If n > 4 Then
+                        If n > 5 Then
+                            If n > 6 Then
+                            EndIf.
+                        EndIf.
+                    EndIf.
+                EndIf.
+            EndIf.
+        EndIf.
+    EndBody.
+.
+79
+Function: main
+    Body:
+        Var: y;
+        y = y && y < y + y * !-y[foo(y)];
+    EndBody.
+.
+80
+Function: main
+    Body:
+        Var: y;
+        y = y[foo(y)] + y[bar(y)] ;
+    EndBody.
+.
+81
+Var: a[2][3][5] = {{1,2,3},{3,4,5},{4,5,6}};
+.
+82
+Var: a[**comment**123] = {{}};
+.
+83
+Function: testCallWithIndex
+    Parameter: a[5][5], i
+    Body:
+        print(a[i+2][i+3]);
+    EndBody.
+.
+84
+Function: testCallWithString
+    Parameter: a[5][5], i
+    Body:
+        print(a[1==2][2==3]);
+    EndBody.
+.
+85
+Function: func
+Body:
+    Var: i;
+    For(i={{0}},"anyting", **noonecare**i) Do
+        For(j={{0}},"anyting", **noonecare**j) Do
+            print(i);
+        EndFor.
+    EndFor.
+EndBody.
+.
+86
+Function: testing
+Parameter: abc
+Body:
+    print("****");
+EndBody.
+.
+87
+Function: testing
+Parameter: abc
+Body:
+    print(**""**);
+EndBody.
+.
+88
+Function: testing
+Parameter: a
+Body:
+    println("Im so out of idea");
+EndBody.
+.
+89
+Function: main
+Body:
+    Return (((i==j) == k[3]) == f(4)) == ((g == n) == mm);
+EndBody.
+.
+90
+Function: main
+Body:
+    Return 1<2;
+EndBody.
+.
+91
+Function: main
+Body:
+    If (e)[4] Then 
+    ElseIf (e)[a][b][c] Then
+    Else 
+    EndIf.
+EndBody.
+.
+92
+Function: main
+Body:
+    While a == 69 Do
+        Do 
+        **Nothing**
+        While c =/= 6. EndDo. 
+    EndWhile.
+EndBody.
+.
+93
+Function: main
+Body:
+    While a == 69 Do
+        Do 
+        a = a - !b;
+        While c =/= 6. EndDo. 
+    EndWhile.
+EndBody.
+.
+94
+Function: main
+Body:
+    While a == 69 Do
+        Do 
+        a = a - -a;
+        While c =/= 6. EndDo. 
+    EndWhile.
+EndBody.
+.
+95
+Function: main
+Body:
+    While a == 69 Do
+        Do 
+        a = a + aa;
+        While c =/= 6. EndDo. 
+    EndWhile.
+EndBody.
+.
+96
+Function: abc
+Body:
+    If a==b Then x = 1;
+        ElseIf a<b Then x = 2;
+        ElseIf a>b Then x = 3;
+        Else x = 4;
+    EndIf.
+EndBody.
+.
+97
+Var: a = 0x4, b = 0O3, c = 10.8, d = 14.e-10;
+.
+98
+Var: a = "0x4, b = 0O3, c = 10.8, d = 14.e-10";
+.
+99
+Function: abc
+Body:
+    If a==b Then x = 1;
+    Else print("Finish!!!!");
+    EndIf.
+EndBody.
+.
