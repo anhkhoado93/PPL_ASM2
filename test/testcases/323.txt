@@ -1,7 +1,7 @@
 
-			Function: main
+			Function: game
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x, y, z;
-			        x = x[x[y][z]][x[y][z]];
+			        f(g(h(y(j,{1,{2,{3}}}))));
 			    EndBody.
 		

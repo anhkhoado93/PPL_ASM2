@@ -1,3 +1,4 @@
+#1852471
 from BKITVisitor import BKITVisitor
 from BKITParser import BKITParser
 from AST import *
@@ -35,8 +36,8 @@ class ASTGeneration(BKITVisitor):
         param3 = None
         if ctx.index_list():
             param2 = ctx.index_list().accept(self)
-        if ctx.some_lit():
-            param3 = ctx.some_lit().accept(self)
+        if ctx.all_literal():
+            param3 = ctx.all_literal().accept(self)
 
         return VarDecl(Id(ctx.ID().getText()), param2, param3)
 
@@ -85,10 +86,10 @@ class ASTGeneration(BKITVisitor):
         return (param1, param2)
 
     def visitStmtlist(self, ctx: BKITParser.StmtlistContext):
-        return [ctx.stmt().accept(self)]+ ctx.stmtprime().accept(self) if ctx.stmtprime() else [ctx.stmt().accept(self)]
+        return [ctx.stmt().accept(self)]+ ctx.stmttail().accept(self) if ctx.stmttail() else [ctx.stmt().accept(self)]
     
-    def visitStmtprime(self, ctx: BKITParser.StmtprimeContext):
-        return [ctx.stmt().accept(self)] + ctx.stmtprime().accept(self) if ctx.stmtprime() else [ctx.stmt().accept(self)]
+    def visitStmttail(self, ctx: BKITParser.StmttailContext):
+        return [ctx.stmt().accept(self)] + ctx.stmttail().accept(self) if ctx.stmttail() else [ctx.stmt().accept(self)]
     
     def visitStmt(self, ctx: BKITParser.StmtContext):
         if ctx.assign_stmt():
@@ -115,8 +116,9 @@ class ASTGeneration(BKITVisitor):
         param2 = None
         if ctx.ID():
             param1 = Id(ctx.ID().getText())
-        elif ctx.expr6():
-            param1 = ctx.expr6().accept(self)
+        elif ctx.expr7():
+            param1 = ArrayCell(ctx.expr7().accept(self), ctx.index_op().accept(self))
+
 
         param2 = ctx.expr().accept(self)
 
@@ -236,7 +238,7 @@ class ASTGeneration(BKITVisitor):
         if ctx.getChildCount() == 1:
             return ctx.expr7().accept(self)
         else:
-            return ArrayCell(ctx.expr6().accept(self), ctx.index_op().accept(self))
+            return ArrayCell(ctx.expr7().accept(self), ctx.index_op().accept(self))
     
     def visitExpr7(self, ctx: BKITParser.Expr7Context):
         if ctx.getChildCount() == 1:
@@ -262,21 +264,22 @@ class ASTGeneration(BKITVisitor):
 
     def visitCall_list(self, ctx: BKITParser.Call_listContext):
         exprlist = [ctx.callee().accept(self)]
-        if ctx.call_lst():
-            exprlist = exprlist + ctx.call_lst().accept(self)
+        if ctx.calltail():
+            exprlist = exprlist + ctx.calltail().accept(self)
 
         return exprlist
 
-    def visitCall_lst(self, ctx: BKITParser.Call_lstContext):
+    def visitCalltail(self, ctx: BKITParser.CalltailContext):
         exprlist = [ctx.callee().accept(self)]
-        if ctx.call_lst():
-            return exprlist + ctx.call_lst().accept(self)
+        if ctx.calltail():
+            return exprlist + ctx.calltail().accept(self)
         return exprlist
 
     def visitCallee(self, ctx: BKITParser.CalleeContext):
         if ctx.expr():
             return ctx.expr().accept(self)
         return None
+
     def visitArray(self, ctx: BKITParser.ArrayContext):
         ret = []
         if ctx.array_elelist():
@@ -286,7 +289,7 @@ class ASTGeneration(BKITVisitor):
         return ArrayLiteral(ret)
 
     def visitArray_elelist(self, ctx: BKITParser.Array_elelistContext):
-        ret = [ctx.some_lit().accept(self)]
+        ret = [ctx.all_literal().accept(self)]
 
         if ctx.array_elelst():
             ret = ret + ctx.array_elelst().accept(self)
@@ -294,13 +297,13 @@ class ASTGeneration(BKITVisitor):
 
 
     def visitArray_elelst(self, ctx: BKITParser.Array_elelstContext):
-        ret = [ctx.some_lit().accept(self)]
+        ret = [ctx.all_literal().accept(self)]
 
         if ctx.array_elelst():
             ret = ret + ctx.array_elelst().accept(self)
         return ret
 
-    def visitSome_lit(self, ctx: BKITParser.Some_litContext):
+    def visitAll_literal(self, ctx: BKITParser.All_literalContext):
         if ctx.array():
             return ctx.array().accept(self)
         elif ctx.literal():

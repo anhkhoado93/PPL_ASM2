@@ -1,3 +1,4 @@
+#1852471
 import unittest
 from TestUtils import TestAST
 from AST import *
@@ -100,10 +101,10 @@ class ASTGenSuite(unittest.TestCase):
 			Function: main
 			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: i = "don'\"t care\";
+			        Var: i = "don\'\"t care\";
 			    EndBody.
 		"""
-		expect = Program([FuncDecl(Id("main"),[VarDecl(Id("a"),[3],None),VarDecl(Id("b"),[4,5],None)],([VarDecl(Id("i"),[],StringLiteral("don'"t care"))],[]))])
+		expect = Program([FuncDecl(Id("main"),[VarDecl(Id("a"),[3],None),VarDecl(Id("b"),[4,5],None)],([VarDecl(Id("i"),[],StringLiteral("don\'\"t care"))],[]))])
 		self.assertTrue(TestAST.checkASTGen(input,expect,310))
 
 	def test_ast_11(self):

@@ -1,7 +1,11 @@
 
 			Function: main
-			    Body:
-			        Var: x, y, z;
-			        x = foo(x, y+z, y[z][x], foo(x));
-			    EndBody.
+			Body:
+			    Break;
+			    Continue;
+			    While True Do
+			        Break;
+			        Continue;
+			    EndWhile.
+			EndBody.
 		

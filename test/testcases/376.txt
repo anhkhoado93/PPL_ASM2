@@ -1,3 +1,7 @@
 
-			Var: x = "Var: y = '"Var: z = 0'"";
+			Function: exp
+			    Parameter: a
+			    Body:
+			        a = 0xFA + 0O17 + 12 + 5e1;
+			    EndBody.
 		

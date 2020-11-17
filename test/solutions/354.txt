@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([],[Return(None)]))])
+Program([FuncDecl(Id("main"),[],([],[If([(BinaryOp("==",BinaryOp("+.",IntLiteral(1),FloatLiteral(2.9)),FloatLiteral(3.9)),[],[CallStmt(Id("print"),[StringLiteral("Successful")])])],([],[Assign(Id("a"),IntLiteral(6))]))]))])

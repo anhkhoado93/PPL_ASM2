@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("x"),[],None)],([],[Return(UnaryOp("-",UnaryOp("-",UnaryOp("-",CallExpr(Id("init__"),[UnaryOp("-",UnaryOp("-",UnaryOp("-",Id("x"))))])))))]))])
+Program([FuncDecl(Id("main"),[],([],[While(BinaryOp("==",Id("a"),IntLiteral(69)),([],[Dowhile(([],[Assign(Id("a"),BinaryOp("-",Id("a"),UnaryOp("-",Id("a"))))]),BinaryOp("=/=",Id("c"),FloatLiteral(6.0)))]))]))])

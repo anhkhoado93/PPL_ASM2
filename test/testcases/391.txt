@@ -1,16 +1,9 @@
 
-			Function: fibonacci
-			    Parameter: n
-			    Body:
-			        Var: x = 1, y = 1, z = 0;
-			        For (i = i, i < n, 1) Do
-			            If i < 2 Then
-			                Continue;
-			            EndIf.
-			            z = x + y;
-			            x = y;
-			            y = z;
-			        EndFor.
-			        Return z;
-			    EndBody.
+			Function: main
+			Body:
+			    If (e)[4] Then 
+			    ElseIf (e)[a][b][c] Then
+			    Else 
+			    EndIf.
+			EndBody.
 		

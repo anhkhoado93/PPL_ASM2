@@ -1,1 +1,1 @@
-Program([VarDecl(Id("x"),[],StringLiteral("String after"))])
+Program([FuncDecl(Id("fnc"),[],([],[While(ArrayLiteral([IntLiteral(1),IntLiteral(2),ArrayLiteral([IntLiteral(3),IntLiteral(4)])]),([],[While(BooleanLiteral(True),([],[While(StringLiteral("True"),([],[]))]))]))]))])

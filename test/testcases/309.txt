@@ -1,8 +1,10 @@
 
-			Function: main
-			    Parameter: n
+			Function: func
 			    Body:
-			        Var: x, y = 0;
-			        print(x + y);
+			    print("Hello,");
+			    EndBody.
+			Function: func
+			    Body:
+			    print(" World");
 			    EndBody.
 		

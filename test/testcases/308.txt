@@ -1,8 +1,8 @@
 
-			Function: main
-			    Parameter: n
+			Var: a = 10;
+			Function: func
+			    Parameter: a,b
 			    Body:
-			        Var: x;
-			        print(x);
+			    a = 5;
 			    EndBody.
 		

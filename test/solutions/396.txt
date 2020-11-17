@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("increment"),[VarDecl(Id("x"),[],None)],([],[Assign(Id("x"),BinaryOp("-",BinaryOp("+",BinaryOp("*",Id("x"),IntLiteral(1)),IntLiteral(0)),UnaryOp("-",IntLiteral(1))))]))])
+Program([FuncDecl(Id("abc"),[],([],[If([(BinaryOp("==",Id("a"),Id("b")),[],[Assign(Id("x"),IntLiteral(1))]),(BinaryOp("<",Id("a"),Id("b")),[],[Assign(Id("x"),IntLiteral(2))]),(BinaryOp(">",Id("a"),Id("b")),[],[Assign(Id("x"),IntLiteral(3))])],([],[Assign(Id("x"),IntLiteral(4))]))]))])

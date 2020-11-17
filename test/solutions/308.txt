@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([VarDecl(Id("x"),[],None)],[CallStmt(Id("print"),[Id("x")])]))])
+Program([VarDecl(Id("a"),[],IntLiteral(10)),FuncDecl(Id("func"),[VarDecl(Id("a"),[],None),VarDecl(Id("b"),[],None)],([],[Assign(Id("a"),IntLiteral(5))]))])

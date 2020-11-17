@@ -1,26 +1,7 @@
 
-			Function: main
-			    Parameter: n
+			Function: ret
+			    Parameter: hello, begin, end
 			    Body:
-			        If n > 0 Then
-			            If n > 1 Then
-			                If n > 2 Then
-			                EndIf.
-			            ElseIf n > 0.5 Then
-			                If n > 0.75 Then
-			                Else
-			                EndIf.
-			            Else
-			                If n > 0.25 Then
-			                EndIf.
-			            EndIf.
-			        ElseIf n > -1 Then
-			            If n > -0.5 Then
-			            EndIf.
-			            If n > -0.25 Then
-			            Else
-			            EndIf.
-			        Else
-			        EndIf.
+			        Return ret();
 			    EndBody.
 		

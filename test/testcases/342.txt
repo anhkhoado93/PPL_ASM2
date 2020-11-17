@@ -1,8 +1,12 @@
 
+			Function: fact
+			Parameter: x
+			Body:
+			    Return fact(x-1);
+			EndBody.
+			
 			Function: main
-			    Body:
-			        For (i = 0, i < 10, 2) Do
-			            print(i);
-			        EndFor.
-			    EndBody.
+			Body:
+			    print(fact(5)); **Should get 120**
+			EndBody.
 		

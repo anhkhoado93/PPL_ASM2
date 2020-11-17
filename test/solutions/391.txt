@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("fibonacci"),[VarDecl(Id("n"),[],None)],([VarDecl(Id("x"),[],IntLiteral(1)),VarDecl(Id("y"),[],IntLiteral(1)),VarDecl(Id("z"),[],IntLiteral(0))],[For(Id("i"),Id("i"),BinaryOp("<",Id("i"),Id("n")),IntLiteral(1),([],[If([(BinaryOp("<",Id("i"),IntLiteral(2)),[],[Continue()])],([],[])),Assign(Id("z"),BinaryOp("+",Id("x"),Id("y"))),Assign(Id("x"),Id("y")),Assign(Id("y"),Id("z"))])),Return(Id("z"))]))])
+Program([FuncDecl(Id("main"),[],([],[If([(ArrayCell(Id("e"),[IntLiteral(4)]),[],[]),(ArrayCell(Id("e"),[Id("a"),Id("b"),Id("c")]),[],[])],([],[]))]))])

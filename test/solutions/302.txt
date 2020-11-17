@@ -1,1 +1,1 @@
-Program([VarDecl(Id("x"),[],None),VarDecl(Id("y"),[],IntLiteral(1)),VarDecl(Id("z"),[],None)])
+Program([VarDecl(Id("arr"),[1],StringLiteral("Hello"))])

@@ -1,6 +1,8 @@
 
-			Function: main
+			Function: divide_conquer
+			    Parameter: hello, begin, end
 			    Body:
-			        Return **a comment**;
+			        hello(begin());
+			        end();
 			    EndBody.
 		

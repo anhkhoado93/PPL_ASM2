@@ -1,6 +1,9 @@
 
-			***
-			****
-			Var: x = 0;
-			******
+			Function: divide_conquer
+			    Parameter: hello, begin, end
+			    Body:
+			        While True Do
+			        Break;
+			        EndWhile.
+			    EndBody.
 		

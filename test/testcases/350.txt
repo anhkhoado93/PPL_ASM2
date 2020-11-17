@@ -1,15 +1,7 @@
 
+			Var: a[1] = {};
 			Function: main
-			    Parameter: n
-			    Body:
-			        Do
-			            For (i = 0, i < 10, 1) Do
-			                Do
-			                    If i % 2 == 0 Then
-			                    EndIf.
-			                    i = i - 1;
-			                While i > 0 EndDo.
-			            EndFor.
-			        While x > 0 EndDo.
-			    EndBody.
+			Body:
+			    a = a + 2;
+			EndBody.
 		

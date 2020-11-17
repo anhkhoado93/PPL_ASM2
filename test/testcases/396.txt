@@ -1,7 +1,10 @@
 
-			Function: increment
-			    Parameter: x
-			    Body:
-			        x = x * 1 + 0 -- 1;
-			    EndBody.
+			Function: abc
+			Body:
+			    If a==b Then x = 1;
+			        ElseIf a<b Then x = 2;
+			        ElseIf a>b Then x = 3;
+			        Else x = 4;
+			    EndIf.
+			EndBody.
 		

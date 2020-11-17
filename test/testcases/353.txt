@@ -1,7 +1,10 @@
 
 			Function: main
-			    Parameter: n
-			    Body:
-			        Return n;
-			    EndBody.
+			Body:
+			    If main(2) Then
+			        a = "String";
+			    Else
+			        a = 6;
+			    EndIf.
+			EndBody.
 		

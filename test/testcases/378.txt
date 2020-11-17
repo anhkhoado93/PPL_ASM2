@@ -1,17 +1,18 @@
 
-			Function: a
-			    Body:
-			        Var: x;
-			        Return b(x);
-			    EndBody.
-			Function: b
-			    Body:
-			        Var: x;
-			        Return a(x);
-			    EndBody.
 			Function: main
+			    Parameter: n
 			    Body:
-			        Var: x;
-			        x = a(x) + b(x);
+			        If n > 1 Then
+			            If n > 2 Then
+			                If n > 3 Then
+			                    If n > 4 Then
+			                        If n > 5 Then
+			                            If n > 6 Then
+			                            EndIf.
+			                        EndIf.
+			                    EndIf.
+			                EndIf.
+			            EndIf.
+			        EndIf.
 			    EndBody.
 		

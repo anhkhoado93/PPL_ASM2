@@ -1,11 +1,7 @@
 
 			Function: main
-			    Parameter: n
-			    Body:
-			        If n > 0 Then
-			            For (i = n, i > 0, -1) Do
-			                print(i);
-			            EndFor.
-			        EndIf.
-			    EndBody.
+			Parameter: x
+			Body:
+			    Var: y = {{5,5.,0x3}, {{False}}, {"True"}};
+			EndBody.
 		

@@ -1,8 +1,6 @@
 
 			Function: main
-			    Parameter: n
-			    Body:
-			        While n > 0 Do
-			        EndWhile.
-			    EndBody.
+			Body:
+			    foo(bar() + dua() + 5.e10);
+			EndBody.
 		

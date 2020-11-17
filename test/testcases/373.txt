@@ -1,16 +1,7 @@
 
-			Function: main
-			    Parameter: n
+			Function: exp
+			    Parameter: a
 			    Body:
-			        For (i = 0, i < n, 1) Do
-			            For (i = 0, i < n, 1) Do
-			                For (i = 0, i < n, 1) Do
-			                    For (i = 0, i < n, 1) Do
-			                        For (i = 0, i < n, 1) Do
-			                        EndFor.
-			                    EndFor.
-			                EndFor.
-			            EndFor.
-			        EndFor.
+			        a = 1+2-.3;
 			    EndBody.
 		

@@ -1,7 +1,10 @@
 
-			Function: main
-			    Parameter: a, b, c
+			Function: divide_conquer
+			    Parameter: hello, begin, end
 			    Body:
-			        foo(**first comment****second comment**a, b, c);
+			        Do
+			            print({"string"});
+			        While "String"
+			        EndDo.
 			    EndBody.
 		

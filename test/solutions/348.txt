@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([],[Dowhile(([],[Assign(Id("n"),BinaryOp("-",Id("n"),IntLiteral(1)))]),BinaryOp(">",Id("n"),IntLiteral(0)))]))])
+Program([VarDecl(Id("a"),[],ArrayLiteral([StringLiteral("Hello")])),VarDecl(Id("b"),[],None),VarDecl(Id("c"),[],None),VarDecl(Id("d"),[],FloatLiteral(8.0))])

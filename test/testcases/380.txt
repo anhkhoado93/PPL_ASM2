@@ -1,9 +1,7 @@
 
 			Function: main
-			    Parameter: a
 			    Body:
-			        Break;
-			        Break;
-			        Break;
+			        Var: y;
+			        y = y[foo(y)] + y[bar(y)] ;
 			    EndBody.
 		

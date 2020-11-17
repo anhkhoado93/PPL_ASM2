@@ -1,7 +1,10 @@
 
 			Function: main
-			    Body:
-			        Var: x, y, z;
-			        x = y----------z;
-			    EndBody.
+			Body:
+			    While a == 69 Do
+			        Do 
+			        **Nothing**
+			        While c =/= 6. EndDo. 
+			    EndWhile.
+			EndBody.
 		

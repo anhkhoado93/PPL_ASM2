@@ -1,7 +1,11 @@
 
-			Function: main
+			Function: f
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x, a, b, c;
-			        x = (a > b) && (b < c);
+			        If a[3] == 4 Then
+			            b[a[3]][5] = {1,2,{4,5}};
+			        ElseIf (a[3] != 4) && (b[4][5] <. 6) Then
+			            Return;
+			        EndIf.
 			    EndBody.
 		

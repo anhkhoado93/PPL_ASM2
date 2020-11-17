@@ -1,7 +1,7 @@
 
-			Function: main
+			Function: f
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x, y, z;
-			        x = x[(y+z)*y*z] * (x[y] + x[x[z]]);
+			        a = f(5,a && 1,g(8));
 			    EndBody.
 		

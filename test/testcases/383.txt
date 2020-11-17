@@ -1,7 +1,7 @@
 
-			Function: compose
-			    Parameter: f, g, x
+			Function: testCallWithIndex
+			    Parameter: a[5][5], i
 			    Body:
-			        Return f(g(x));
+			        print(a[i+2][i+3]);
 			    EndBody.
 		

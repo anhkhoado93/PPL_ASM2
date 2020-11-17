@@ -1,3 +1,11 @@
 
-			********Var: x = 0;********
+			Function: fnc
+			    Body:
+			        While {1,2,{3,4}} Do 
+			            While True Do
+			                Do a = 4; While a == 4
+			                EndDo.
+			            EndWhile.
+			        EndWhile.
+			    EndBody.
 		

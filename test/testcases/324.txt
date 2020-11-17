@@ -1,7 +1,9 @@
 
-			Function: main
+			Function: game
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x, y, z;
-			        x = -x[y[z]];
+			        While a == 1 Do 
+			            print(os("Hello"));
+			        EndWhile.
 			    EndBody.
 		

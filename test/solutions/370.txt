@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([],[Dowhile(([],[While(BinaryOp(">",Id("n"),IntLiteral(0)),([],[For(Id("i"),IntLiteral(0),BinaryOp("<",Id("i"),Id("n")),IntLiteral(1),([],[If([(BinaryOp("==",BinaryOp("%",Id("n"),Id("i")),IntLiteral(0)),[],[]),(BinaryOp("==",BinaryOp("%",Id("n"),Id("i")),IntLiteral(1)),[],[])],([],[]))]))]))]),BinaryOp(">",Id("n"),IntLiteral(0)))]))])
+Program([FuncDecl(Id("ret"),[VarDecl(Id("hello"),[],None),VarDecl(Id("begin"),[],None),VarDecl(Id("end"),[],None)],([],[Return(StringLiteral("chimsedinang"))]))])

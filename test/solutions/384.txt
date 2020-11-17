@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("f"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("f"),[Id("x")]))])),FuncDecl(Id("g"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("g"),[Id("x")]))])),FuncDecl(Id("composefg"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("f"),[CallExpr(Id("g"),[Id("x")])]))]))])
+Program([FuncDecl(Id("testCallWithString"),[VarDecl(Id("a"),[5,5],None),VarDecl(Id("i"),[],None)],([],[CallStmt(Id("print"),[ArrayCell(Id("a"),[BinaryOp("==",IntLiteral(1),IntLiteral(2)),BinaryOp("==",IntLiteral(2),IntLiteral(3))])])]))])

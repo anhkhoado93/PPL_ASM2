@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("abc"),[],([],[]))])
+Program([FuncDecl(Id("func"),[VarDecl(Id("a"),[],None),VarDecl(Id("b"),[],None)],([],[]))])

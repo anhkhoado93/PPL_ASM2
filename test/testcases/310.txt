@@ -1,8 +1,7 @@
 
 			Function: main
-			    Parameter: n
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x, y = 0;
-			        print(x + y + n);
+			        Var: i = "don'"t care";
 			    EndBody.
 		

@@ -1,11 +1,7 @@
 
-			Function: main
-			    Body:
-			        Var: x = 0;
-			        Var: y, z = 1;
-			        Var: a[3] = {0, 1, 2};
-			        a[z] = x;
-			        a[x] = z;
-			        Return a;
-			    EndBody.
+			Function: testing
+			Parameter: abc
+			Body:
+			    print("****");
+			EndBody.
 		

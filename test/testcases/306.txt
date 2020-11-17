@@ -1,5 +1,6 @@
 
-			Function: abc
+			Function: func
+			    Parameter: a,b
 			    Body:
 			    EndBody.
 		

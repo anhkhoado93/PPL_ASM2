@@ -1,9 +1,11 @@
 
-			** Outside the function **
-			Function: main
+			Function: divide_conquer
+			    Parameter: hello, begin, end
 			    Body:
-			        ** Inside the function **
-			        Var: x;
-			        x = 1 + 2 * 3 ** 4 ** \ 5;
+			        If begin == end Then
+			            Return hello[begin];
+			        Else
+			            Return divide_conquer(hello, begin, end - 2) + divide_conquer(hello, end - 2 + 1, end);
+			        EndIf.
 			    EndBody.
 		

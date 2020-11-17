@@ -1,7 +1,8 @@
 
-			Function: recursion
-			    Parameter: x
-			    Body:
-			        Return recursion(x);
-			    EndBody.
+			Function: abc
+			Body:
+			    If a==b Then x = 1;
+			    Else print("Finish!!!!");
+			    EndIf.
+			EndBody.
 		

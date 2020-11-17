@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None),VarDecl(Id("y"),[],None)],[Assign(Id("x"),UnaryOp("-",ArrayCell(Id("y"),[UnaryOp("!",ArrayCell(Id("y"),[UnaryOp("-.",ArrayCell(Id("y"),[UnaryOp("!",ArrayCell(Id("y"),[Id("x")]))]))])),UnaryOp("!",UnaryOp("-.",UnaryOp("-",Id("x")))),UnaryOp("-",UnaryOp("-",UnaryOp("-",ArrayCell(Id("y"),[UnaryOp("!",Id("x"))]))))])))]))])
+Program([FuncDecl(Id("main"),[],([],[Assign(Id("a"),BinaryOp("*",CallExpr(Id("func"),[IntLiteral(3)]),CallExpr(Id("foo"),[StringLiteral("Daa")])))]))])

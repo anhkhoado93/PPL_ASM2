@@ -1,12 +1,6 @@
 
 			Function: main
-			    Body:
-			        Var: x, y, z;
-			        x = func1(x)
-			            + y[z]
-			            + func2(y)
-			            + !!x
-			            + y % z
-			            + y < z;
-			    EndBody.
+			Body:
+			    Return 13e-5 + True - False;
+			EndBody.
 		

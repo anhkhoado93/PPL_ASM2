@@ -1,13 +1,10 @@
 
 			Function: main
-			    Parameter: x
-			    Body:
-			        If x == True Then
-			            x = False;
-			        Else
-			            x = True;
-			        EndIf.
-			        x = !x;
-			        Return x;
-			    EndBody.
+			Body:
+			    While a == 69 Do
+			        Do 
+			        a = a + aa;
+			        While c =/= 6. EndDo. 
+			    EndWhile.
+			EndBody.
 		

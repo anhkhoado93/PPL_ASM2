@@ -1,7 +1,12 @@
 
 			Function: main
-			    Body:
-			        Var: x, y;
-			        x = y[foo(y[foo(y[foo(y[foo(y[foo(y)])])])])];
-			    EndBody.
+			**Parameter: a,b **
+			Body:
+			    Var: a = 4;
+			    While True Do
+			        Break;
+			        Continue;
+			        Return;
+			    EndWhile.
+			EndBody.
 		

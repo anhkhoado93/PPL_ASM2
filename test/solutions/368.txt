@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[],([],[CallStmt(Id("print"),[StringLiteral("Hello World")])]))])
+Program([FuncDecl(Id("divide_conquer"),[VarDecl(Id("hello"),[],None),VarDecl(Id("begin"),[],None),VarDecl(Id("end"),[],None)],([],[Continue()]))])

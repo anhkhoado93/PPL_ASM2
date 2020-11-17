@@ -30,11 +30,9 @@ options{
 
 program  : decl_list EOF;
 
-fragment LowerCase: [a-z];
-fragment UpperCase: [A-Z];
 fragment Digit: [0-9];
 
-ID: LowerCase(LowerCase | UpperCase | Digit | '_')* ;
+ID: [a-z]([a-zA-Z0-9_])* ;
 
 decl_list: var_declist? func_declist?;
 
@@ -48,27 +46,29 @@ func_prime: func_decl func_prime?;
 variable_decl: VAR COLON variable_list SEMI;
 variable_list: var_decl varlist?;
 varlist: COMMA var_decl varlist?;
-var_decl: ID index_list? (ASSIGN some_lit)?;
+var_decl: ID index_list? (ASSIGN all_literal)?;
 index_list: (LS INT RS) index_list?;
 
 
 //fucntion declaration
 func_decl: FUNCTION COLON ID parameter? body;
-body: BODY COLON stmtlst ENDBODY DOT;
 parameter: PARAMETER COLON param parameter_list?; 
 parameter_list: COMMA param parameter_list?;
 param: ID index_list?;
+body: BODY COLON stmtlst ENDBODY DOT;
+
+
 
 stmtlst: var_declist? stmtlist?;
 
-stmtlist: stmt stmtprime?;
-stmtprime: stmt stmtprime?;
+stmtlist: stmt stmttail?;
+stmttail: stmt stmttail?;
 //statement 
 stmt: assign_stmt | if_stmt | for_stmt | while_stmt | dowhile_stmt | call_stmt 
         | return_stmt | continue_stmt | break_stmt;
 
 
-assign_stmt: (ID | expr6) ASSIGN expr SEMI;
+assign_stmt: (ID | expr7 index_op) ASSIGN expr SEMI;
 if_stmt: IF expr THEN stmtlst elif_stmt_list? else_stmt? ENDIF DOT;
 elif_stmt_list: elif_stmt elif_stmt_list?;
 elif_stmt: ELSEIF expr THEN stmtlst;
@@ -91,17 +91,17 @@ expr2: expr3 | expr2 (ADDING|SIGN) expr3;
 expr3: expr4 | expr3 MULTIPLYING expr4;
 expr4: expr5 | UNLOGICAL expr4;
 expr5: expr6 | SIGN expr5;
-expr6: expr7 | expr6 index_op;
+expr6: expr7 | expr7 index_op;
 expr7: expr8 | ID LP call_list? RP;
 expr8: literal | ID | LP expr0 RP;
 
-call_list: callee call_lst?;
-call_lst: COMMA callee call_lst?;
+call_list: callee calltail?;
+calltail: COMMA callee calltail?;
 callee: expr;
 array: LB array_elelist? RB;
-array_elelist: some_lit array_elelst?;
-array_elelst: COMMA some_lit array_elelst?;
-some_lit: array | literal | STRING;
+array_elelist: all_literal array_elelst?;
+array_elelst: COMMA all_literal array_elelst?;
+all_literal: array | literal | STRING;
 literal: INT | FLOAT | BOOLEAN;
 
 SEMI: ';' ;

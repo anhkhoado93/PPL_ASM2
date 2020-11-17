@@ -1,7 +1,7 @@
 
-			Function: main
-			    Body:
-			        While True Do Do
-			        While False EndDo. EndWhile.
-			    EndBody.
+			Function: testing
+			Parameter: a
+			Body:
+			    println("Im so out of idea");
+			EndBody.
 		

@@ -1,9 +1,6 @@
 
 			Function: main
-			    Parameter: x
-			    Body: 
-			        If x == 0 Then 
-			            x = 1; 
-			        EndIf.
+			    Body:
+			        Return ***8**;
 			    EndBody.
 		

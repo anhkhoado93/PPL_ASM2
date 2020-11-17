@@ -1,7 +1,8 @@
 
-			Function: main
+			Function: fnc
 			    Body:
-			        Var: x;
-			        x = True && False;
+			        While "Hello" Do 
+			            print(os("Hello"));
+			        EndWhile.
 			    EndBody.
 		

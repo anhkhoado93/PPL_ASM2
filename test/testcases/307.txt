@@ -1,6 +1,7 @@
 
-			Function: main
-			    Parameter: n
+			Function: func
+			    Parameter: a,b[1]
 			    Body:
+			    print(a);
 			    EndBody.
 		

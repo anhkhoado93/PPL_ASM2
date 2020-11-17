@@ -1,7 +1,11 @@
 
 			Function: main
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x;
-			        x = 1 + 2;
+			        If a[3] == 1 Then
+			            Var: c = 10;
+			        ElseIf a[3] == 2 Then
+			            Var: b = 50;
+			        EndIf.
 			    EndBody.
 		

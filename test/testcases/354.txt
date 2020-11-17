@@ -1,7 +1,10 @@
 
 			Function: main
-			    Parameter: n
-			    Body:
-			        Return;
-			    EndBody.
+			Body:
+			    If 1 +. 2.9 == 3.9e0 Then
+			        print("Successful");
+			    Else
+			        a = 6;
+			    EndIf.
+			EndBody.
 		

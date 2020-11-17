@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None)],[Assign(Id("x"),BinaryOp("+",CallExpr(Id("foo"),[CallExpr(Id("foo"),[CallExpr(Id("foo"),[CallExpr(Id("foo"),[CallExpr(Id("foo"),[Id("x")])])])])]),CallExpr(Id("func"),[])))]))])
+Program([FuncDecl(Id("main"),[],([],[Assign(Id("a"),UnaryOp("-",CallExpr(Id("func"),[StringLiteral("adding")])))]))])

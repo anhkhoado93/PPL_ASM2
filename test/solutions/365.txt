@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[],([],[Return(None)]))])
+Program([FuncDecl(Id("divide_conquer"),[VarDecl(Id("hello"),[],None),VarDecl(Id("begin"),[],None),VarDecl(Id("end"),[],None)],([],[CallStmt(Id("hello"),[CallExpr(Id("begin"),[])]),CallStmt(Id("end"),[])]))])

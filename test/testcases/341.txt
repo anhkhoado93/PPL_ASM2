@@ -1,11 +1,14 @@
 
+			Var: n, a[10];
 			Function: main
-			    Parameter: x
-			    Body:
-			        If x == 0 Then
-			            x = 1;
-			        ElseIf x == 1 Then
-			            x = 0;
+			Body:
+			    Var: i = 4;
+			    For(i = 0, i < 10, 1) Do
+			        If (n+9 < 4) Then
+			            ** do something **
+			        Else
+			            **please my lord**
 			        EndIf.
-			    EndBody.
+			    EndFor.
+			EndBody.
 		

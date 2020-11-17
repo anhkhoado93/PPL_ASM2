@@ -1,11 +1,10 @@
 
 			Function: main
-			    Parameter: n
-			    Body:
-			        For (i = 0, i < 10, 1) Do
-			            If i == 5 Then
-			                Continue;
-			            EndIf.
-			        EndFor.
-			    EndBody.
+			Body:
+			    If !!!(a==3) Then
+			        a = "String";
+			    Else
+			        a = 6;
+			    EndIf.
+			EndBody.
 		

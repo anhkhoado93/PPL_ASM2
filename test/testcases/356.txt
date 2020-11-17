@@ -1,9 +1,10 @@
 
-			Var: x = 0;
-			Function: foo
-			    Body:
-			    EndBody.
+			Var: n, a[10];
 			Function: main
-			    Body:
-			    EndBody.
+			Body:
+			    Var: i = 4;
+			    For(i = {{1,2,3}}, ---.--i,a == 1) Do
+			        ** do something **
+			    EndFor.
+			EndBody.
 		

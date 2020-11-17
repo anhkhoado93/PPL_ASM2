@@ -1,7 +1,9 @@
 
 			Function: main
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        Var: x, y, z;
-			        x = (x+y)*(x+z)\(y+z);
+			        If a[3] == 4 Then
+			            b[a[3]][5] = {1,2,{4,5}};
+			        EndIf.
 			    EndBody.
 		

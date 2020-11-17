@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([VarDecl(Id("x"),[],None),VarDecl(Id("y"),[],IntLiteral(0))],[CallStmt(Id("print"),[BinaryOp("+",BinaryOp("+",Id("x"),Id("y")),Id("n"))])]))])
+Program([FuncDecl(Id("main"),[VarDecl(Id("a"),[3],None),VarDecl(Id("b"),[4,5],None)],([VarDecl(Id("i"),[],StringLiteral("don'"t care"))],[]))])

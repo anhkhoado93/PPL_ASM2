@@ -1,10 +1,11 @@
 
 			Function: main
-			    Body:
-			        For (i = 0, i < 10, 1) Do
-			            If i % 2 == 0 Then
-			                print(i);
-			            EndIf.
-			        EndFor.
-			    EndBody.
+			Parameter: b
+			Body:
+			    Var : a;
+			    While a - b == 4 Do
+			        While "String" Do
+			        EndWhile.
+			    EndWhile.
+			EndBody.
 		

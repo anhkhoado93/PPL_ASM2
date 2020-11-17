@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None)],[Assign(Id("x"),BinaryOp("&&",BooleanLiteral(True),BooleanLiteral(False)))]))])
+Program([FuncDecl(Id("fnc"),[],([],[While(StringLiteral("Hello"),([],[CallStmt(Id("print"),[CallExpr(Id("os"),[StringLiteral("Hello")])])]))]))])

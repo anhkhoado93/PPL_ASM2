@@ -1,8 +1,7 @@
 
-			****
-			Function: main
+			Function: divide_conquer
+			    Parameter: hello, begin, end
 			    Body:
-			        print("Hello World");
+			        Continue;
 			    EndBody.
-			****
 		

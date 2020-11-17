@@ -1,13 +1,3 @@
 
-			** This is a
-			 * multi-line
-			 * comment.
-			 **
-			Var: x = "Hello World";
-			** This is a comment. **
-			Function: main
-			    Body:
-			        print(x);
-			    EndBody.
-			** Hello World **
+			
 		

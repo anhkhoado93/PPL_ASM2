@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("recursion"),[VarDecl(Id("x"),[],None)],([],[Return(CallExpr(Id("recursion"),[Id("x")]))]))])
+Program([FuncDecl(Id("abc"),[],([],[If([(BinaryOp("==",Id("a"),Id("b")),[],[Assign(Id("x"),IntLiteral(1))])],([],[CallStmt(Id("print"),[StringLiteral("Finish!!!!")])]))]))])

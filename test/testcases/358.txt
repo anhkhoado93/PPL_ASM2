@@ -1,3 +1,13 @@
 
-			
+			Var: n, a[10];
+			Function: main
+			Body:
+			    Var: i = 4;
+			    For(i = {{1,2,3}}, ---.--i,a == 1) Do
+			        If i > 5 Then
+			        While True Do
+			        EndWhile.
+			        EndIf.
+			    EndFor.
+			EndBody.
 		

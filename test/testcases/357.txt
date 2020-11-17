@@ -1,3 +1,10 @@
 
-			Var: s = "Function: main Body: EndBody.";
+			Var: n, a[10];
+			Function: main
+			Body:
+			    Var: i = 4;
+			    For(i = {{1,"2",3}}, i > 12.e-4, --i) Do
+			        ** do something **
+			    EndFor.
+			EndBody.
 		

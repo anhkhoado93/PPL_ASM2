@@ -1,7 +1,10 @@
 
-			Var: x, y = 0;
-			Var: z = 1;
+			Var: n, a[10];
 			Function: main
-			    Body:
-			    EndBody.
+			Body:
+			    Var: i = 4;
+			    For(i = "heelo", "aloha", {{"unexpected"}}) Do
+			        ** do something **
+			    EndFor.
+			EndBody.
 		

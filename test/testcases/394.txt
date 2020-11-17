@@ -1,7 +1,10 @@
 
 			Function: main
-			    Parameter: x
-			    Body:
-			        Return ---init__(---x);
-			    EndBody.
+			Body:
+			    While a == 69 Do
+			        Do 
+			        a = a - -a;
+			        While c =/= 6. EndDo. 
+			    EndWhile.
+			EndBody.
 		

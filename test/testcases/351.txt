@@ -1,11 +1,8 @@
 
-			Function: main
-			    Parameter: n
-			    Body:
-			        For (i = 0, i < 10, 1) Do
-			            If i == 5 Then
-			                Break;
-			            EndIf.
-			        EndFor.
-			    EndBody.
+			Function: func
+			Parameter: a
+			Body:
+			    ** factorial **
+			    Return a * func(a);
+			EndBody.
 		

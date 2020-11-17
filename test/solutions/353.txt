@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("n"),[],None)],([],[Return(Id("n"))]))])
+Program([FuncDecl(Id("main"),[],([],[If([(CallExpr(Id("main"),[IntLiteral(2)]),[],[Assign(Id("a"),StringLiteral("String"))])],([],[Assign(Id("a"),IntLiteral(6))]))]))])

@@ -1,1 +1,1 @@
-Program([VarDecl(Id("x"),[],None),VarDecl(Id("y"),[],IntLiteral(0)),VarDecl(Id("z"),[],IntLiteral(1)),FuncDecl(Id("main"),[],([],[]))])
+Program([VarDecl(Id("n"),[],None),VarDecl(Id("a"),[10],None),FuncDecl(Id("main"),[],([VarDecl(Id("i"),[],IntLiteral(4))],[For(Id("i"),StringLiteral("heelo"),StringLiteral("aloha"),ArrayLiteral([ArrayLiteral([StringLiteral("unexpected")])]),([],[]))]))])

@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[],([VarDecl(Id("x"),[],None)],[Assign(Id("x"),UnaryOp("!",UnaryOp("!",UnaryOp("!",UnaryOp("-",UnaryOp("-.",UnaryOp("-",UnaryOp("-.",UnaryOp("-",UnaryOp("-.",CallExpr(Id("foo"),[Id("x")])))))))))))]))])
+Program([FuncDecl(Id("main"),[],([VarDecl(Id("a"),[],None)],[While(UnaryOp("!",UnaryOp("!",UnaryOp("!",UnaryOp("!",UnaryOp("!",UnaryOp("!",UnaryOp("!",BooleanLiteral(True)))))))),([],[While(StringLiteral("String"),([],[]))]))]))])

@@ -1,7 +1,6 @@
 
 			Function: main
-			    Body:
-			        Var: x, y;
-			        x = -y[!y[-.y[!y[x]]]][!-.-x][---y[!x]];
-			    EndBody.
+			Body:
+			    a = func(3) * foo("Daa");
+			EndBody.
 		

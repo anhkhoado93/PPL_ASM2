@@ -1,7 +1,11 @@
 
-			Var: x;
 			Function: main
+			    Parameter: a[3], b[4][5]
 			    Body:
-			        print(x);
+			        If a[3] == 1 
+			        Then
+			            Var: c = 10;
+			            b[4][5] = 5;
+			        EndIf.
 			    EndBody.
 		

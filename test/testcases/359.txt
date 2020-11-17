@@ -1,8 +1,12 @@
 
 			Function: main
-			    Body:
-			        Var: x;
-			        x = foo
-			            (x);
-			    EndBody.
+			Body:
+			    Var: i = 4;
+			    For(i = {{1,2,3}}, ---.--i,a == 1) Do
+			        If i > 5 Then
+			        Do **nothing** While i 
+			        EndDo.
+			        EndIf.
+			    EndFor.
+			EndBody.
 		

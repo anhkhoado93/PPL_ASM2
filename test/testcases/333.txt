@@ -1,7 +1,10 @@
 
 			Function: main
-			    Body:
-			        Var: x, y;
-			        x[y] = y[x];
-			    EndBody.
+			Body:
+			    Var : a;
+			    Do 
+			        a = a + 1;
+			        Break;
+			    While True EndDo.
+			EndBody.
 		

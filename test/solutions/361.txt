@@ -1,1 +1,1 @@
-Program([VarDecl(Id("x"),[],StringLiteral("Hello World")),FuncDecl(Id("main"),[],([],[CallStmt(Id("print"),[Id("x")])]))])
+Program([])

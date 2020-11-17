@@ -1,17 +1,7 @@
 
-			Function: f
-			    Parameter: x
+			Function: testCallWithString
+			    Parameter: a[5][5], i
 			    Body:
-			        Return f(x);
-			    EndBody.
-			Function: g
-			    Parameter: x
-			    Body:
-			        Return g(x);
-			    EndBody.
-			Function: composefg
-			    Parameter: x
-			    Body:
-			        Return f(g(x));
+			        print(a[1==2][2==3]);
 			    EndBody.
 		

@@ -1,1 +1,1 @@
-Program([FuncDecl(Id("main"),[VarDecl(Id("a"),[],None)],([],[Break(),Break(),Break()]))])
+Program([FuncDecl(Id("main"),[],([VarDecl(Id("y"),[],None)],[Assign(Id("y"),BinaryOp("+",ArrayCell(Id("y"),[CallExpr(Id("foo"),[Id("y")])]),ArrayCell(Id("y"),[CallExpr(Id("bar"),[Id("y")])])))]))])

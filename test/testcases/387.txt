@@ -1,13 +1,7 @@
 
-			Function: main
-			    Parameter: x, y
-			    Body:
-			        If x > y Then
-			            While x > y Do
-			                x = x - 1;
-			                y = y + 1;
-			            EndWhile.
-			        EndIf.
-			        Return x == y;
-			    EndBody.
+			Function: testing
+			Parameter: abc
+			Body:
+			    print(**""**);
+			EndBody.
 		

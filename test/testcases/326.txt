@@ -1,7 +1,6 @@
 
 			Function: main
 			    Body:
-			        Var: x, y, z;
-			        x = foo(x) + y[z];
+			        Return ans(5);
 			    EndBody.
 		

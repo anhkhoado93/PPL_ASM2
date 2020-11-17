@@ -1,17 +1,7 @@
 
-			Function: main
-			    Parameter: n
+			Function: exp
+			    Parameter: a
 			    Body:
-			        While i < n Do
-			            While i < n Do
-			                While i < n Do
-			                    While i < n Do
-			                        While i < n Do
-			                            i = i + 1;
-			                        EndWhile.
-			                    EndWhile.
-			                EndWhile.
-			            EndWhile.
-			        EndWhile.
+			        a = f() * g() -. 0O0;
 			    EndBody.
 		

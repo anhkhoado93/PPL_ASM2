@@ -1,12 +1,7 @@
 
-			***********
-			*    F    *
-			*    u    *
-			*    N    *
-			*    C    *
-			*    T    *
-			*    I    *
-			*    O    *
-			*    N    *
-			**********
+			Function: exp
+			    Parameter: a
+			    Body:
+			        a = 0xFA;
+			    EndBody.
 		

@@ -1,18 +1,7 @@
 
-			Function: main
-			    Parameter: n
+			Function: exp
+			    Parameter: a
 			    Body:
-			        If n > 0 Then
-			            If n > 1 Then
-			                If n > 2 Then
-			                    If n > 3 Then
-			                        If n > 4 Then
-			                            If n > 5 Then
-			                            EndIf.
-			                        EndIf.
-			                    EndIf.
-			                EndIf.
-			            EndIf.
-			        EndIf.
+			        a = ---(!!!1);
 			    EndBody.
 		
